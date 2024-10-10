@@ -1,0 +1,11 @@
+
+public class t2ej1 {
+
+  public static void main(String[] args) {
+    String cadena = new String();
+
+    String hola =cadena.substring(1, 5);
+    System.out.println(hola);
+  }
+
+}

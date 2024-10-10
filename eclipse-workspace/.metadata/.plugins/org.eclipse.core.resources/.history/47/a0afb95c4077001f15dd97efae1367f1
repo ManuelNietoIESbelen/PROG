@@ -1,0 +1,23 @@
+import java.util.*;
+
+public class hola1 {
+
+  public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+
+    boolean comprobar = false;
+    char caracter;
+    System.out.println("Escriba un caracter");
+    caracter = sc.next().charAt(0);
+
+    while (comprobar==false) {
+      if (caracter == 'a' || caracter == 'e' || caracter == 'i' || caracter == 'o' || caracter == 'u') {
+        comprobar = true;
+        System.out.println("El caracter es una vocal");
+      } else {
+        System.out.println("El caracter no es una vocal");
+      }
+    }
+  }
+
+}

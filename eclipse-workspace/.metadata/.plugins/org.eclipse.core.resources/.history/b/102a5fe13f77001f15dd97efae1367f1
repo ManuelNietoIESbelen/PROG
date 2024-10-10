@@ -1,0 +1,22 @@
+import java.util.*;
+public class hola1 {
+
+  public static void main(String[] args) {
+   Scanner sc= new Scanner(System.in);
+    
+   boolean comprobar=true;
+   char caracter;
+   System.out.println("Escriba un caracter");
+     caracter=sc.next().charAt(0);
+     
+     if (caracter%1==0) {
+       comprobar=false;
+       System.out.println("El caracter no es una letra");
+    }else {
+      System.out.println("El caracter es una letra");
+    }
+    
+     
+  }
+
+}

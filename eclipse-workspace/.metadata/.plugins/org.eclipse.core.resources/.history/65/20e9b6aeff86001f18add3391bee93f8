@@ -11,7 +11,7 @@ public class AVENIDA {
     
     System.out.println("Nombre:");
     nombre1=sc.nextLine();
-    System.out.println("Edad:");
+    System.out.println("Edades:");
     suj1.edad=Integer.parseInt(sc.nextLine());
     System.out.println("peso:");
     suj1.peso=Integer.parseInt(sc.nextLine());

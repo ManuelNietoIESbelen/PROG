@@ -42,18 +42,17 @@ public class Prueba {
     } else if (edad2 > edad1 && edad2 > edad3) {
       System.out.printf("El capitan es%s porque es el mayor", nombre2);
     } else {
-      System.out.printf("El capitan es %s porque es el mayor %n", nombre2);
+      System.out.printf("El capitan es %s porque es el mayor %n", nombre3);
 
     }
     System.out.println("¿Quien es el siguiente mas mayor?");
     intento = sc.nextLine();
 
-    if (intento == nombre2) {
-    System.out.println("Has acertado");
-    }else {
-     System.out.println("¿Quien es el siguiente mas mayor?");
+    while (!nombre2.equals(intento)) {
+      System.out.println("Prueba otra vez¿Quien es el siguiente mas mayor?");
       intento = sc.nextLine();
-    
     }
+    System.out.println("Has acertado, muy bien");
+
   }
 }

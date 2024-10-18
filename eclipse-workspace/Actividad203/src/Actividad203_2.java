@@ -19,15 +19,6 @@ public class Actividad203_2 {
     Complejo comp1 = new Complejo(parteReal1, parteIma1);
     Complejo comp2 = new Complejo(parteReal2, parteIma2);
 
-    comp1.getParteReal();
-    comp1.getParteImaginaria();
-    comp2.getParteReal();
-    comp2.getParteImaginaria();
-
-    comp1.sumar(comp2);
-    comp1.restar(comp2);
-    comp1.multiplicar(comp2);
-    comp1.dividir(comp2);
 
     System.out.println("suma: " + comp1.sumar(comp2));
     System.out.println("resta: " + comp1.restar(comp2));

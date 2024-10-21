@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Extract constant &apos;LITROS_POR_METRO_CUBICO&apos; from expression &apos;1000&apos;&#x0D;&#x0A;- Original project: &apos;r01ejercicios&apos;&#x0D;&#x0A;- Constant name: &apos;LITROS_POR_METRO_CUBICO&apos;&#x0D;&#x0A;- Constant expression: &apos;1000&apos;&#x0D;&#x0A;- Declared visibility: &apos;private&apos;" description="Extract constant &apos;LITROS_POR_METRO_CUBICO&apos;" flags="786432" id="org.eclipse.jdt.ui.extract.constant" input="/src&lt;r01ejercicios{r01e22.java" name="LITROS_POR_METRO_CUBICO" qualify="false" replace="false" selection="785 4" stamp="1727693129270" version="1.0" visibility="2"/>
-</session>

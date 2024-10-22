@@ -7,7 +7,7 @@ public class CalculadoraBasicaApp {
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
     System.out.println("Introduce la operacion a realizar S(suma) R(resta) P(producto) D(division)");
-    char operacion = sc.next().charAt(0);
+    char operacion = sc.nextLine().charAt(0);
     
     System.out.println("Introduce el primer operando:");
     double num1 = Double.parseDouble(sc.nextLine());
@@ -19,7 +19,7 @@ public class CalculadoraBasicaApp {
     switch (operacion) {
     case 'S':
       resultado = num1 + num2;
-      System.out.println("El resultado de la operacion es: "+ resultado);
+      System.out.printf("El resultado de la operacion es %f: ",resultado);
       break;
     case 'R':
       resultado = num1 - num2;

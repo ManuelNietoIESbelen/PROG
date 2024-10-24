@@ -17,10 +17,10 @@ public class ClasificarTriangulosApp {
     
     if(lado1==lado2 && lado2==lado3) {
       System.out.println("El trianfulo es equilatero");
-    }else if(lado1==lado2 && lado2!=3) {
-      System.out.println("El triangulo es isosceles");
-    }else {
+    }else if(lado1!=lado2 && lado2!=lado3) {
       System.out.println("El triangulo es escaleno");
+    }else {
+      System.out.println("El triangulo es isosceles");
     }
     
     

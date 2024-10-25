@@ -14,12 +14,12 @@ public class MayorDeTresApp {
     int num3=Integer.parseInt(sc.nextLine());
     
     
-    boolean esMayor1= num1>num2 && num1>num3;
-    boolean esMayor2= num2>num3 && num2>num1;
-   
+
+    int mayor1=(num1>num2) ? num1 : num2;
+    int mayor2=(mayor1>num3) ? mayor1:num3;
 
     
-    System.out.println("El numero mayor es: "+(esMayor1 ? num1: (esMayor2 ? num2 :num3)));
+    System.out.printf("El numero mayor es:  %d",mayor2);
   }
 
 }

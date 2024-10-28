@@ -17,6 +17,7 @@ public class MayorMenorMediaApp {
       if (i == cantidad) {
         double media = suma / cantidad;
         System.out.printf("La media es: %f", media);
+        
       }
     }
 

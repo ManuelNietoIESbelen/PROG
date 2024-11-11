@@ -29,7 +29,7 @@ public class PruebaPizza {
        }else {
          pizza.estado="Pedida";
        }
-     
+       
       System.out.printf("Tamaño: %s%n",pizza.tamanyo);
       System.out.printf("Tipo: %s%n",pizza.tipo);
       System.out.printf("Estado: %s%n",pizza.estado);

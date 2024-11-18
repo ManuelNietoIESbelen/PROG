@@ -18,7 +18,7 @@ class CuentaTest {
   @Test
   void testGetSaldo() {
     fail("Not yet implemented");
-  }
+  }s
 
   /**
    * Test method for {@link programas.Cuenta#setSaldo(float)}.

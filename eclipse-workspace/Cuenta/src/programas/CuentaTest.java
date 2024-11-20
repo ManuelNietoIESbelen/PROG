@@ -25,7 +25,7 @@ class CuentaTest {
    */
   @Test
   void testSetSaldo() {
-    Cuenta cuenta1 = new Cuenta("ccc-01",1000);
+    Cuenta cuenta1 = new Cuenta("ccc-01",(float) 1000.1);
     float saldo = cuenta1.getSaldo();
     
     assertEquals (1000,saldo);

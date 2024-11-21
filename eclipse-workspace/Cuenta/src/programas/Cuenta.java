@@ -31,6 +31,10 @@ public class Cuenta {
   
   public void extraerDinero(float importe) {
     saldo=saldo-importe;
+    
+    if (saldo - importe < 0) {
+      
+    }
   }
   
   public void mostrarCuenta() {

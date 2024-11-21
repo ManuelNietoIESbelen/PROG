@@ -26,6 +26,7 @@ class CuentaTest {
   @Test
   void testSetSaldo() {
     Cuenta cuenta1 = new Cuenta("ccc-01",(float) 1000.1);
+    
     float saldo = cuenta1.getSaldo();
     
     assertEquals (1000,saldo);
@@ -45,7 +46,16 @@ class CuentaTest {
    */
   @Test
   void testExtraerDinero() {
-    fail("Not yet implemented");
+    try{
+      Cuenta cuenta1 = new Cuenta("ccc-14233",100);
+      cuenta1.extraerDinero(120);
+      fail("ERROR");
+    }catch(ArithmeticException e) {
+      assertEquals("Saldo negativo",e.getMessage());
+    }
+    
+    
+    
   }
 
 }

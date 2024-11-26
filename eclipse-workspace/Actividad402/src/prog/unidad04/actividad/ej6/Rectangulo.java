@@ -12,11 +12,11 @@ public class Rectangulo {
     this.verticeOpuesto = verticeOpuesto;
   }
   
-  Punto puntoAuxiliar1 = new Punto(vertice.getPosX(),verticeOpuesto.getPosY());
+  
   
   //Metodos
   public double AreaRectangulo() {
-    
+    Punto puntoAuxiliar1 = new Punto(vertice.getPosX(),verticeOpuesto.getPosY());
     double altura = CalcularSegmento(vertice,puntoAuxiliar1);
     double base = CalcularSegmento(verticeOpuesto,puntoAuxiliar1);
     
@@ -25,6 +25,7 @@ public class Rectangulo {
   }
   
   public double PerimetroRectangulo() {
+    Punto puntoAuxiliar1 = new Punto(vertice.getPosX(),verticeOpuesto.getPosY());
     double altura = CalcularSegmento(vertice,puntoAuxiliar1);
     double base = CalcularSegmento(verticeOpuesto,puntoAuxiliar1);
     

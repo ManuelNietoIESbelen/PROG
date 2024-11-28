@@ -17,10 +17,9 @@ public class Fraccion {
   }
   
   
-  public String fraccionResta(int nominadorSuma,int denominadorSuma) {
-     
-    
-    return null;
+  public Fraccion resta(Fraccion otra) {
+    Fraccion resultado = new Fraccion((this.numerador * otra.denominador) - (otra.numerador * this.denominador), this.denominador * otra.denominador);
+    return resultado;
   }
 
 
@@ -39,10 +38,7 @@ public String fraccionDivision(Fraccion fraccion1, Fraccion fraccion2) {
   
 }
   
-private int maximoComunDivisorRecursivo(int denominador1, int denominador2) {
-  if (denominador2 == 0) return denominador1;
-  return maximoComunDivisorRecursivo(denominador2, denominador1 % denominador2);
-}
+
   
 
 }

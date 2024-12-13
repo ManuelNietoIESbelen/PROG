@@ -33,10 +33,7 @@ public class Automovil {
   }
 
   public boolean comprobarMatricula(Automovil auto) {
-    if (matricula.matches("\\d{4}[A-Z]{3}")) {
-      return true;
-    }
-    return false;
+    return true;
 
   }
 

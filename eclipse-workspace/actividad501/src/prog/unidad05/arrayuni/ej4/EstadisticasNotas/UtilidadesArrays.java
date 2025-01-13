@@ -1,15 +1,15 @@
-package prog.unidad05.arrayuni.ej4;
+package prog.unidad05.arrayuni.ej4.EstadisticasNotas;
 
 public class UtilidadesArrays {
 
-//  public static void main(String[] args) {
-//    int[] lista = { 5, 19, 2, 1, 5, 5, 5 };
-//    int[] lista2 = {};
-//
-//    System.out.println(getMinimoArrayEntero(lista));
-//    System.out.println(getMaximoArrayEntero(lista2));
-//    System.out.println(enteroApareceEnArray(lista, 5));
-//  }
+  public static void main(String[] args) {
+    int[] lista = { 5, 19, 2, 1, 5, 5, 5 };
+    int[] lista2 = {};
+
+    System.out.println(getMinimoArrayEntero(lista));
+    System.out.println(getMaximoArrayEntero(lista2));
+    System.out.println(enteroApareceEnArray(lista, 5));
+  }
 
   public static int[] generarArrayEnteroAleatorio(int longitud, int valorMinimo, int valorMaximo) {
    
@@ -75,7 +75,4 @@ public class UtilidadesArrays {
 
     return contador;
   }
-  
-
-  
 }

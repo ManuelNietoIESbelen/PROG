@@ -10,7 +10,7 @@ public class EstadisticasNotas {
     System.out.println("Quieres introducir una nota");
     int nota1=Integer.parseInt(sc.nextLine());
    
-   (nota1);
+   
     
     
   }
@@ -43,8 +43,15 @@ public class EstadisticasNotas {
   }
 
   public int calificacionModa(int[] array) {
-
-    return 1;
+    int mayor=array[0];
+    int i = 0;
+    for (i = 0; i < array.length; i++) {
+        if(mayor<array[i]) {
+          array[i]=mayor;
+        }
+      }
+    return i;
+    
   }
 
 }

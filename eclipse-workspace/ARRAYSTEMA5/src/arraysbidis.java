@@ -1,10 +1,6 @@
 
 public class arraysbidis {
 
-  
-  
-    
-  
   public static void main(String[] args) {
     
     int[][] tabla= {{1,2,3,4},{1,2,3,4},{1,2,3,4},{1,2,3,4}};

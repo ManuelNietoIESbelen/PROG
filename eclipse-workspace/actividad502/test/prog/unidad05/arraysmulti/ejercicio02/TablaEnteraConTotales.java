@@ -10,7 +10,7 @@ public class TablaEnteraConTotales {
       throw new IllegalArgumentException();
     }
 
-    tabla = new int[filas][columnas];0 
+    tabla = new int[filas][columnas];
   }
 
   public void setCasilla(int fila, int columna, int valor) {

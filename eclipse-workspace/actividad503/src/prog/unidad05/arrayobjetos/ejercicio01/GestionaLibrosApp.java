@@ -30,15 +30,14 @@ public class GestionaLibrosApp extends Libro {
       int anyo=Integer.parseInt(sc.nextLine());
       Libro libro = new Libro();
       
-      libro.agregarLibro(titulo,autor,anyo);
+      agregarLibro(titulo,autor,anyo);
       
     case 2:
       mostrarLibros();
     }
   }
   
-  private void agregarLibro(String titulo,String autor,int anyo) {
-    Libro libro = new Libro();
+  private static void agregarLibro(String titulo,String autor,int anyo) {
     for (int i = 0; i < libros.length; i++) {
       libro=libros[i];
     }

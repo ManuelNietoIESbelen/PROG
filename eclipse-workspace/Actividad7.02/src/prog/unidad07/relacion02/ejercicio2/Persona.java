@@ -13,7 +13,7 @@ public class Persona {
   }
   
   public void cambiarEstadoCivil(String nuevoEstado) {
-    estadoCivil = nuevoEstado;
+    this.estadoCivil = nuevoEstado;
   }
   
   public String getDni() {
@@ -21,7 +21,7 @@ public class Persona {
   }
   
   public String toString() {
-    return "Nombre: " + nombre + "\nDNI: " + dni + "\nEstado civil: " + estadoCivil;
+    return "Nombre: " + nombre + ", DNI: " + dni + ", Estado civil: " + estadoCivil;
   }
   
 }

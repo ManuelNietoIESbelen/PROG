@@ -2,6 +2,7 @@ package prog.unidad07.relacion02.ejercicio1;
 
 public class Estudiante extends Persona {
   private String curso;
+  private boolean cursoFlag = false;
   
   
   public Estudiante(String nombre, String dni, String estadoCivil, String curso) {
@@ -12,11 +13,17 @@ public class Estudiante extends Persona {
   }
 
   public void cambiarCurso(String nuevoCurso) {
-    curso = nuevoCurso;
+    this.curso = nuevoCurso;
+    cursoFlag = true;
   }
   
   public String toString() {
-    return super.toString() + "\nCurso: " + curso;
+    if (cursoFlag) {
+      cursoFlag = false;
+      return "Estudiante modificado: "+super.toString() + ", Curso: " + curso;
+    
+    }
+    return "Estudiante original: " +super.toString() + ", Curso: " + curso;
   }
   
 }

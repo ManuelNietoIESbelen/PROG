@@ -6,16 +6,15 @@ public class Personal extends Empleados {
   
   public Personal(String nombre, String dni, String estadoCivil, int añoIncorporacion, String codDespacho, String seccion) {
     super(nombre, dni, estadoCivil, añoIncorporacion, codDespacho);
-    this.seccion = seccion;
-    
+    this.seccion = seccion;    
   }
 
   
   public void trasladarSeccion(String nuevaSeccion) {
-    seccion = nuevaSeccion;
+    this.seccion = nuevaSeccion;
   }
   
   public String toString() {
-    return super.toString() + "\nSección: " + seccion;
+    return super.toString() + ", Sección: " + seccion+"\n";
   }
 }

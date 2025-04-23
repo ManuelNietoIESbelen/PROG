@@ -12,11 +12,13 @@ public class Estudiante extends Persona {
   }
 
   public void cambiarCurso(String nuevoCurso) {
-    curso = nuevoCurso;
+    this.curso = nuevoCurso;
+  
   }
   
   public String toString() {
-    return super.toString() + "\nCurso: " + curso;
+   
+    return super.toString() + ", Curso: " + curso+"\n";
   }
   
 }

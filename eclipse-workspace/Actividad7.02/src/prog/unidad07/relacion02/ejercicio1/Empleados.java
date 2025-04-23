@@ -16,7 +16,7 @@ public class Empleados extends Persona {
   }
   
   public String toString() {
-    return super.toString() + "\nAño de incorporación: " + añoIncorporacion + "\nCódigo de despacho: " + codDespacho;
+    return super.toString() + "\nAño de incorporación: " + añoIncorporacion + ",  Código de despacho: " + codDespacho;
   }
 
 }

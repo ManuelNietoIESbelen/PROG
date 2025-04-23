@@ -13,10 +13,8 @@ public class Profesor extends Empleados {
     this.departamento = departamentoNuevo;
   }
   
- 
-  
   public String toString() {
-    return super.toString() + "\nDepartamento: " + departamento;
+    return super.toString() + ", Departamento: " + departamento;
   }
   
 }

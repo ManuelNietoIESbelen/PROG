@@ -13,6 +13,7 @@ public class CalculadorNomina {
       // Suma su salario a la nomina
       nomina += empleado.getSalario();
     }
+      
     
     // Devuelve la nomina
     return nomina;
